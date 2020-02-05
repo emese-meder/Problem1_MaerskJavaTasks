@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        VendingMachine vendingMachine =  new VendingMachine();
+        System.out.println(vendingMachine.buyProduct(100, "Candy"));
+
     }
 }
